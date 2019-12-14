@@ -1,5 +1,5 @@
-# About
-This is a set of examples of [jsonnet](https://jsonnet.org/) usage based on official [tutorial](https://jsonnet.org/learning/tutorial.html).
+# Overview
+This is a research on [jsonnet](https://jsonnet.org/) capabilities.
 
 # Running Examples
 ```./local-run.sh ${example}```<br>
@@ -10,10 +10,15 @@ Example:<br>
 ## Non JSON output
 See Manifest section of [stdlib](https://jsonnet.org/ref/stdlib.html)
 
-# Additional Tools
-## YQ
-[yq](https://github.com/mikefarah/yq) utility is a convenient json-to-yaml converter.
+### Additional Tools
+#### YQ
+[yq](https://github.com/mikefarah/yq) is a convenient utility for json-to-yaml conversion.
 
 Example:<br>
 ```jsonnet input.jsonnet | yq r -```
+
+# References
+1) Official Tutorial - https://jsonnet.org/learning/tutorial.html
+2) Go GitHub Repository - https://github.com/google/go-jsonnet
+3) Databricks style guide - https://github.com/databricks/jsonnet-style-guide
   
