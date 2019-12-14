@@ -22,7 +22,8 @@ Example:<br>
 ```jsonnet input.jsonnet | yq r -```
 
 # References
-1) Official Tutorial - https://jsonnet.org/learning/tutorial.html
-2) Go GitHub Repository - https://github.com/google/go-jsonnet
-3) Databricks style guide - https://github.com/databricks/jsonnet-style-guide
+* Official Tutorial - https://jsonnet.org/learning/tutorial.html
+* Go GitHub Repository - https://github.com/google/go-jsonnet
+* Databricks style guide - https://github.com/databricks/jsonnet-style-guide
+* Google SRE Book - https://landing.google.com/sre/workbook/chapters/configuration-specifics/ 
   
