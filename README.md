@@ -2,11 +2,15 @@
 This is a research on [jsonnet](https://jsonnet.org/) capabilities.
 
 # Running Examples
-```./local-run.sh ${example}```<br>
-
-Example:<br>
-```./local-run.sh arith```
-
+## Docker
+```shell script
+docker rm jsonnet
+docker run --name jsonnet -it -v $(pwd):/src bitnami/jsonnet /features/arith.jsonnet
+```
+## Local Setup
+```
+jsonnet features/arith.jsonnet
+```
 ## Non JSON output
 See Manifest section of [stdlib](https://jsonnet.org/ref/stdlib.html)
 
