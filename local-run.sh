@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-# https://github.com/mikefarah/yq
-jsonnet syntax/input.jsonnet | yq r -
+jsonnet src/$1.jsonnet
