@@ -18,8 +18,12 @@ See Manifest section of [stdlib](https://jsonnet.org/ref/stdlib.html)
 #### YQ
 [yq](https://github.com/mikefarah/yq) is a convenient utility for json-to-yaml conversion.
 
-Example:<br>
+JSON to YAML:<br>
 ```jsonnet input.jsonnet | yq r -```
+
+
+YAML to JSON:<br> 
+```yq read --tojson example.yml```
 
 # References
 * Official Tutorial - https://jsonnet.org/learning/tutorial.html
